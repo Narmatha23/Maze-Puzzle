@@ -155,8 +155,8 @@ select:focus {
   width: 100vw;
   height: 100vh;
   color: #fff;
-  background: linear-gradient(219.46deg, #110036 27.63%, #170059 100%), linear-gradient(219.46deg, #FFFFFF 27.63%, #19004E 100%), radial-gradient(100% 246.94% at 100% 100%, #FFFFFF 0%, #000353 100%), linear-gradient(121.18deg, #1400FF 0.45%, #3A0000 100%), linear-gradient(192.86deg, #F06060 9.22%, #008B7A 87.25%), linear-gradient(150.76deg, #0015D5 15.35%, #000B6C 89.57%);
-  background-blend-mode: screen, overlay, overlay, difference, difference, normal;
+  background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%); 
+  background-blend-mode: normal, normal, screen, overlay, normal;
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
           animation: Gradient 15s ease infinite;
